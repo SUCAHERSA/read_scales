@@ -1,3 +1,16 @@
+
+"""
+Nombre del archivo: mi_script.py
+
+Descripción: Este código implementa un servidor TCP que escucha conexiones entrantes en el puerto 1111 
+en localhost. Cuando un cliente se conecta y envía datos, el servidor lee esos datos, obtiene una lectura
+de una bascula (a través de la función read_scales), y envía esta lectura de vuelta al cliente.
+
+Autor: Carlos Armando Hernandez Celedon
+Fecha: 15 de octubre de 2024
+"""
+
+
 import socket
 from read_scales import read_scales
 
